@@ -1,0 +1,60 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* html, body {
+    height: 100%;  
+    margin: 0;
+    padding: 0;  
+} */
+:root{
+    --primary-color: #043873;
+    --primary-color2: #4f9cf9;
+    --secondary-color: #ffe492;
+    --text-color: #ffffff;
+    --hover-color: #ffd700;
+}
+
+.landing-page{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 34px;
+    width: 12rem;
+}
+.header{
+    width: 80%;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-login{
+    height: 60px;
+    width: 126px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--hover-color);
+    color: var(--primary-color);
+}
+
+.btn-try-free{
+    height: 60px;
+    width: 227px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color2);
+    margin-left: 20px;
+    color: var(--text-color);
+}
